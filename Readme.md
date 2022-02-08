@@ -135,3 +135,8 @@ class Main {
 ```
 ArrayList: [Dog, Cat, Horse]
 ```
+
+### \>References :
+___
++ https://www.javatpoint.com/collections-in-java
++ https://www.programiz.com/java-programming/collections

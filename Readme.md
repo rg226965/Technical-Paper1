@@ -8,11 +8,11 @@ Java Collections can achieve all the operations that you perform on a data such 
 
 Java Collection means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
 
-### \>What is Collection in Java
+### What is Collection in Java
 ___
 A Collection represents a single unit of objects, i.e., a group.
 
-### \>What is a framework in Java
+### What is a framework in Java
 ___
 - It provides readymade architecture.
 
@@ -20,7 +20,7 @@ ___
 - It represents a set of classes and interfaces.
 - It is optional.
 
-### \>What is Collection framework
+### What is Collection framework
 ___
 The Collection framework represents a unified architecture for storing and manipulating a group of objects. It has:
 
@@ -29,13 +29,13 @@ The Collection framework represents a unified architecture for storing and manip
 
 2. Algorithm
 
-### \>Hierarchy of Collection Framework
+### Hierarchy of Collection Framework
 ___
 Let us see the hierarchy of Collection framework. The java.util package contains all the classes and interfaces for the Collection framework.
 
 ![Hierarchy of Collection Framework](https://static.javatpoint.com/images/java-collection-hierarchy.png "Collection Framework hierarchy")
 
-### \>Methods of Collection interface
+### Methods of Collection interface
 ___
 There are many methods declared in the Collection interface. They are as follows:
 
@@ -62,20 +62,20 @@ There are many methods declared in the Collection interface. They are as follows
 |19|public int hashCode()|It returns the hash code number of the collection.|
 
 
-### \>Java Collection Interface
+### Java Collection Interface
 ___
 
 The `Collection` interface is the root interface of the collections framework hierarchy.
 
 Java does not provide direct implementations of the `Collection` interface but provides implementations of its subinterfaces like `List`, `Set`, and `Queue`.
 
-### \>Collections Framework Vs. Collection Interface
+### Collections Framework Vs. Collection Interface
 ___
 People often get confused between the collections framework and `Collection` Interface.
 
 The `Collection` interface is the root interface of the collections framework. The framework includes other interfaces as well: `Map` and `Iterator`. These interfaces may also have subinterfaces.
 
-### \>Subinterfaces of the Collection Interface
+### Subinterfaces of the Collection Interface
 ___
 As mentioned earlier, the `Collection` interface includes subinterfaces that are implemented by Java classes.
 
@@ -92,15 +92,15 @@ The `Set` interface allows us to store elements in different sets similar to the
 #### **Queue Interface :**
 The `Queue` interface is used when we want to store and access elements in First In, First Out manner.   
 
-### \>Java Map Interface
+### Java Map Interface
 ___
 In Java, the `Map` interface allows elements to be stored in key/value pairs. Keys are unique names that can be used to access a particular element in a map. And, each key has a single value associated with it.
 
-### \>Java Iterator Interface
+### Java Iterator Interface
 ___
 In Java, the `Iterator` interface provides methods that can be used to access elements of collections.
 
-### \>Why the Collections Framework?
+### Why the Collections Framework?
 ___
 The Java collections framework provides various data structures and algorithms that can be used directly. This has two main advantages:
 + We do not have to write code to implement these data structures and algorithms manually.
@@ -111,7 +111,7 @@ Moreover, the collections framework allows us to use a specific data structure f
 + To store data in key/value pairs, we can use the `Map` interface.
 + The `ArrayList` class provides the functionality of resizable arrays.
 
-### \>Example: ArrayList Class of Collections
+### Example: ArrayList Class of Collections
 ___
 The `ArrayList` class allows us to create resizable arrays. The class implements the `List` interface (which is a subinterface of the `Collection` interface).
 
@@ -136,7 +136,7 @@ class Main {
 ArrayList: [Dog, Cat, Horse]
 ```
 
-### \>References :
+### References :
 ___
 + https://www.javatpoint.com/collections-in-java
 + https://www.programiz.com/java-programming/collections
